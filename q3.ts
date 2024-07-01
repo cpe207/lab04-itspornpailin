@@ -1,4 +1,4 @@
-function primeNumber(a: number): void {
+function primeNumber(a: number) {
   if (a <= 1) {
     console.log('NO');
     return;

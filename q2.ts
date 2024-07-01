@@ -1,4 +1,4 @@
-function arrayStringify(a: any):void {
+function arrayStringify(a: any) {
   for (let i = 0; i < a.length; i++) {
     let text = a[i];
     console.log(text);
