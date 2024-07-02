@@ -1,4 +1,4 @@
-function arrayStringify(a) {
+function arrayStringify(a:any) {
   let x = '';
   for(let i = 0; i < a.length; i++) {
     x += a[i];

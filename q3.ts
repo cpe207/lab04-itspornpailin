@@ -1,4 +1,4 @@
-function primeNumber(a) {
+function primeNumber(a:number) {
   if (a <= 1) {
     return 'NO';
   } else

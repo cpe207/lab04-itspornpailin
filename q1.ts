@@ -1,6 +1,4 @@
-import { isThisTypeNode } from "typescript";
-
-function typeChecker(a, b) {
+function typeChecker(a:string|number, b:string|number) {
   if (typeof a === 'string' && typeof b === 'string') {
     return 'I LOVE YOU';
   } else if (typeof a === 'number' && typeof b === 'number') {
