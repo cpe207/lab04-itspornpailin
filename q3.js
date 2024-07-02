@@ -1,16 +1,12 @@
 function primeNumber(a) {
-    if (a <= 1) {
-        return 'NO';
-    }
-    else
-        for (var i = 2; i <= a; i++) {
-            if (a % i === 0) {
-                return 'NO';
-            }
-            else if (a === i) {
-                return 'YES';
-            }
+    for (var i = 2; i <= a; i++) {
+        if (i == a) {
+            return "YES";
         }
+        if (a % i == 0) {
+            return "NO";
+        }
+    }
 }
 var d1 = 10;
 var d2 = 29;

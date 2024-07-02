@@ -1,13 +1,10 @@
 function primeNumber(a:number) {
-  if (a <= 1) {
-    return 'NO';
-  } else
-
-  for (let i = 2; i <= a; i++) {
-    if (a % i === 0) {
-      return 'NO';
-    } else if (a === i) {
-      return 'YES';
+  for(let i = 2; i <= a; i++){
+    if(i == a){
+      return "YES";
+    }
+    if(a % i == 0){
+        return "NO";
     }
   }
 
