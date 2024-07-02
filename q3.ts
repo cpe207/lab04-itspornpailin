@@ -1,17 +1,15 @@
-function primeNumber(a):void {
+function primeNumber(a) {
   if (a <= 1) {
-    console.log('NO');
-    return;
-  }
+    return 'NO';
+  } else
 
-  for (let i = 2; i < a; i++) {
+  for (let i = 2; i <= a; i++) {
     if (a % i === 0) {
-      console.log('NO');
-      return;
+      return 'NO';
     }
   }
 
-  console.log('YES');
+  return 'YES';
 }
 
 const d1 = 10;
