@@ -1,8 +1,9 @@
 function arrayStringify(a) {
+    var x = '';
     for (var i = 0; i < a.length; i++) {
-        var text = a[i];
-        console.log(text);
+        x += a[i];
     }
+    return x;
 }
 var c1 = [1, 2, 3];
 var c2 = [10, 9, 8, 7, 6, 5];

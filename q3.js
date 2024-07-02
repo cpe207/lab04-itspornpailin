@@ -1,15 +1,14 @@
 function primeNumber(a) {
     if (a <= 1) {
-        console.log('NO');
-        return;
+        return 'NO';
     }
-    for (var i = 2; i < a; i++) {
-        if (a % i === 0) {
-            console.log('NO');
-            return;
+    else
+        for (var i = 2; i <= a; i++) {
+            if (a % i === 0) {
+                return 'NO';
+            }
         }
-    }
-    console.log('YES');
+    return 'YES';
 }
 var d1 = 10;
 var d2 = 29;

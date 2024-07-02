@@ -1,4 +1,4 @@
-function typeChecker(a:string|number, b:string|number) {
+function typeChecker(a:any, b:any) {
   if (typeof a === 'string' && typeof b === 'string') {
     return 'I LOVE YOU';
   } else if (typeof a === 'number' && typeof b === 'number') {
