@@ -7,8 +7,10 @@ function primeNumber(a) {
             if (a % i === 0) {
                 return 'NO';
             }
+            else if (a === i) {
+                return 'YES';
+            }
         }
-    return 'YES';
 }
 var d1 = 10;
 var d2 = 29;

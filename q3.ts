@@ -6,10 +6,11 @@ function primeNumber(a:number) {
   for (let i = 2; i <= a; i++) {
     if (a % i === 0) {
       return 'NO';
+    } else if (a === i) {
+      return 'YES';
     }
   }
 
-  return 'YES';
 }
 
 const d1 = 10;
